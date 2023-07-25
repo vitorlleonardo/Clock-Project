@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply w-64 flex justify-center place-items-center bg-slate-900 rounded-lg
+}
+
+.timer {
+    @apply text-9xl text-center text-white font-bold
+}
